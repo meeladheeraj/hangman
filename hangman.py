@@ -11,6 +11,8 @@ tries = 6
 #Import the game name from hangman_life.py and print it at the game start:
 from hangman_life import game_name,lives
 print(game_name)
+print("welcome...!!!")
+print("The length of word is ",word_letters,".")
 
 #Create blank list called result to add right letters that the players have guessed to it:
 result = []
